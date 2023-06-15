@@ -4,7 +4,7 @@
  * main -Entry point
  * Description: A C program that prints using put
  * Return: Always 0
-*/i
+*/
 
 int main(void)
 {
