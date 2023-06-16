@@ -7,14 +7,15 @@
  *
  * Return: the function always return (0)
 */
+
 int main(void)
 {
-	char ch = a;
-
-	for (ch; ch <= z; ch++)
+	char ch = 'a';
+	while(ch <= 'z')
 	{
 		putchar(ch);
+		ch++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
