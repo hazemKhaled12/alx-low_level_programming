@@ -21,8 +21,8 @@ int main(void)
 
 	while (chCapital <= 'Z')
 	{
-	       	putchar(chCapital);
-	       	chCapital++;
+		putchar(chCapital);
+		chCapital++;
 	}
 
 	putchar('\n');
