@@ -11,12 +11,21 @@
 int main(void)
 {
 	char ch = 'a';
+	char chCapital = 'A';
 
 	while (ch <= 'Z')
 	{
 		putchar(ch);
 		ch++;
 	}
+
+	while (chCapital <= 'Z')
+	{
+	       	putchar(chCapital);
+	       	chCapital++;
+	}
+
 	putchar('\n');
+
 	return (0);
 }
