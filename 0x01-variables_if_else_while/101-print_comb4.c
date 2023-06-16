@@ -17,6 +17,7 @@ int main(void)
 		num2 = 0;
 		while (num2 < 10)
 		{
+			num3 = 0;
 			while (num3 < 10)
 			{
 				if (num1 != num2 && num2 != num3 && num1 < num2 && num2 < num3)
