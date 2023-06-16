@@ -31,9 +31,9 @@ int main(void)
 					punchar(' ');
 				}
 			}
-			num2++
+			num2++;
 		}
-		num1++
+		num1++;
 	}
 	punchar('\n');
 	return (0);
