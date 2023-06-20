@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_alphabet - the function
  *
  * Description: Print numbers from 0 to 9
  *
