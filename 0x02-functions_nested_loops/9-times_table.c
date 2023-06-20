@@ -19,19 +19,19 @@ void times_table(void)
 		while (num < 10)
 		{
 			prod = num * table;
+			if (num != 0)
+			{
+				_putchar(',');
+				_putchar(' ');
+				if (prod < 10)
+					_putchar(' ');
+			}
 			if (prod < 10)
 				_putchar((prod % 10) + '0');
 			if (prod >= 10)
 			{
 				_putchar((prod / 10) + '0');
 				_putchar((prod % 10) + '0');
-			}
-			if (num != 9)
-			{
-				_putchar(',');
-				_putchar(' ');
-				if (prod < 10)
-					_putchar(' ');
 			}
 			if (num == 9)
 				_putchar('\n');
