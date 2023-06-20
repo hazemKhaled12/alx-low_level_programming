@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- * print_alphabet - the function
+ * _islower - the function
  *
  * Description: Print numbers from 0 to 9
+ *
+ * @c: checks input of the function
  *
  * Return: always 0
 */
 
-void print_alphabet(void)
+int _islower(int c)
 {
-        int ch;
-
-        for (ch = 'a'; ch <= 'z'; ch++)
-        {
-                _putchar(ch);
-        }
-        _putchar('\n');
-
+	if (c >= 97 && c <= 122)
+		return (1);
+	return (0);
+}
