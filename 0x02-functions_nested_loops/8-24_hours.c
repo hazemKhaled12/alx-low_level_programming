@@ -1,25 +1,34 @@
+#include <stdio.h>
+
+/**
+ * jack_bauer - entry point
+ *
+ * Description: Print numbers from 0 to 9
+ *
+ * Return: always 0
+*/
+
 void jack_bauer(void)
 {
-  int hours = 0;
-  int minutes = 0;
-  int hours_remainder;
-  int mins_remainder;
+	int hr = 0, min;
 
-  while (hours <= 23)
-  {
-    while (minutes <= 59)
-    {
-      mins_remainder = minutes % 10;
-      hours_remainder = hours % 10;
-      _putchar(hours / 10 + '0');
-      _putchar(hours_remainder + '0');
-      _puthar(':');
-      _putchar(minutes / 10 + '0');
-      _putchar(mins_remainder + '0');
-      minutes++;
-      _putchar('\n');
-    }
-    hours++;
-    minutes = 0;
-  }
+	while (hr <= 23)
+	{
+		min  = 0;
+
+		while (min < 59)
+		{
+			_putchar((hr / 10) + 48);
+			_putchar((hr % 10) + 48);
+			_putchar(':');
+			_putchar((min / 10) + 48);
+			_putchar((min % 10) + 48);
+			_putchar('\n');
+			min++
+		}
+		hr++
+	}
+
+
 }
+
