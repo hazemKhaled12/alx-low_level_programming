@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - the function
+ * print_alphabet_x10 - the function
  *
  * Description: Print numbers from 0 to 9
  *
@@ -20,5 +20,6 @@ void print_alphabet_x10(void)
 			_putchar(ch);
 		}
 		_putchar('\n');
+		counter++;
 	}
 }
