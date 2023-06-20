@@ -7,7 +7,7 @@
  *
  * Description: Print numbers from 0 to 9
  *
- * @n: input for the function
+ * @num: input for the function
  *
  * Return: always 0
 */
