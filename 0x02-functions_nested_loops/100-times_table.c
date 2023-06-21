@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - entry point
+ * print_times_table - entry point
  *
  * Description: Print numbers from 0 to 9
  *
@@ -35,7 +35,7 @@ void print_times_table(int n)
 				_putchar((prod / 10) + '0');
 				_putchar((prod % 10) + '0');
 			}
-			if (num == 9)
+			if (num == n)
 				_putchar('\n');
 			num++;
 		}
