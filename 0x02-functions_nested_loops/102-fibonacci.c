@@ -15,7 +15,7 @@ int main(void)
 	int i;
 	int fib[50] = {1, 2};
 
-	printf("%d, %d", fin[0], fin[1]);
+	printf("%d, %d", fib[0], fib[1]);
 
 	i = 2;
 	while (i < 50)
