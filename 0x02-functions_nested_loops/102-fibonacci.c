@@ -21,7 +21,7 @@ int main(void)
 	while (i < 50)
 	{
 		fib[i] = fib[i - 1] + fib[i - 2];
-		printf(" ,%lu", fib[i]);
+		printf(", %lu", fib[i]);
 		i++;
 	}
 	printf("\n");
