@@ -15,13 +15,13 @@ int main(void)
 	int i;
 	int fib[50] = {1, 2};
 
-	printf("%d, %d", fib[0], fib[1]);
+	printf("%lu, %lu", fib[0], fib[1]);
 
 	i = 2;
 	while (i < 50)
 	{
 		fib[i] = fib[i - 1] + fib[i - 2];
-		printf(" ,%d", fib[i]);
+		printf(" ,%lu", fib[i]);
 		i++;
 	}
 	printf("\n");
