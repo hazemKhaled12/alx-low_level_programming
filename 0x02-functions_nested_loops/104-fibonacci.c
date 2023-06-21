@@ -35,19 +35,19 @@ int main(void)
 	for (count = 1; count <= 98; count++)
 	{
 		if (f10 > 0)
-			printf("%lu", f10)
+			printf("%lu", f10);
 		initial0s = numLength(mx) - 1 - numLength(f1);
-		while (f10 > 0 && initial0s › 0)
+		while (f10 > 0 && initial0s > 0)
 		{
-			printf(*"%d", 0);
-			initial0--;
+			printf("%d", 0);
+			initial0s--;
 		}
 
 		printf("%lu", f1);
 		sum = (f1 + f2) % mx;
-		sumo = fl0 + f20 + (f1 + f2) / mx;
+		sum0 = f10 + f20 + (f1 + f2) / mx;
 		f1 = f2;
-		fl0 = f20;
+		f10 = f20;
 		f2 = sum;
 		f20 = sum0;
 
