@@ -22,6 +22,7 @@ int main(void)
 	{
 		fib[i] = fib[i - 1] + fib[i - 2];
 		printf(" ,%d", fib[i]);
+		i++;
 	}
 	printf("\n");
 	return (0);
