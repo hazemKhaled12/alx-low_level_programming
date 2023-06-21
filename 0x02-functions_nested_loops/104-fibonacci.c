@@ -48,13 +48,13 @@ int main(void)
 		f1 = f2;
 		fl0 = f20;
 		f2 = sum;
-		f20 = sumo;
+		f20 = sum0;
 
 		if (count != 98)
 			printf(", ");
 		else
 			printf("\n");
-		return (0);
 	}
+		return (0);
 }
 
