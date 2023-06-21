@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	unsigned long int;
+	unsigned long int i;
 	unsigned long int fib[50] = {1, 2};
 
 	printf("%lu, %lu", fib[0], fib[1]);
