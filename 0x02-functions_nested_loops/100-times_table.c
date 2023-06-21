@@ -2,11 +2,8 @@
 
 /**
  * print_times_table - entry point
- *
  * Description: Print numbers from 0 to 9
- *
  * @n: number of timestable
- *
  * Return: always 0
 */
 
@@ -17,7 +14,6 @@ void print_times_table(int n)
 
 	if (n > 15 || n < 0)
 		return;
-
 	while (table <= n)
 	{
 		num = 0;
@@ -52,6 +48,4 @@ void print_times_table(int n)
 		}
 		table++;
 	}
-
-
 }
