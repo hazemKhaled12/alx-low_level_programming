@@ -1,4 +1,4 @@
- #include <stdio.h>
+ #include "main.h"
 
 /**
  * print_numbers - entry point
@@ -14,7 +14,7 @@ void print_numbers(void)
 
 	while (i < 10)
 	{
-		putchar(i + '0');
+		_putchar(i + '0');
 		i++;
 	}
 }
