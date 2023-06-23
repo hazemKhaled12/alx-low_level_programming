@@ -11,7 +11,7 @@
 void more_numbers(void)
 {
 	int num1 = 0;
-	int num2
+	int num2;
 
 	while (num1 <= 10)
 	{
@@ -21,8 +21,8 @@ void more_numbers(void)
 			_putchar(num2 + '0');
 			num2++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		num1++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
