@@ -28,6 +28,6 @@ void more_numbers(void)
 			count++;
 		}
 		_putchar('\n');
-		row;
+		row++;
 	}
 }
