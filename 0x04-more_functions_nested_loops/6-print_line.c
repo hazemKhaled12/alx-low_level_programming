@@ -12,15 +12,17 @@
 
 void print_line(int n)
 {
-	int start = 0;
+	int a = 0;
 
 	if (n > 0)
 	{
-		while (start <= n)
+		while (a <= n)
 		{
 			_putchar('_');
-			start++;
+			a++;
 		}
+	 _putchar('\n');
 	}
+	else
 	_putchar('\n');
 }
