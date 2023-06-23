@@ -10,7 +10,7 @@
 
 void more_numbers(void)
 {
-	int row = 0;
+	int row = 1;
 	int num, count;
 
 	while (row <= 10)
@@ -27,7 +27,7 @@ void more_numbers(void)
 			putchar(num + 48);
 			count++;
 		}
-		_putchar('\n');
 		row++;
+		_putchar('\n');
 	}
 }
