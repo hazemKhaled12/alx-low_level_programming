@@ -10,24 +10,20 @@
 
 void more_numbers(void)
 {
-	int row = 1;
-	int num, count;
+	int num, row, count;
 
-	while (row <= 10)
+	for (row = 1; row <= 10; row++)
 	{
-		count = 0;
-		while (count <= 14)
+		for (count = 0; count <= 14; count++)
 		{
 			num = count;
 			if (count > 9)
 			{
-				_putchar(1 + '0');
+				_putchar(1 + 48);
 				num = count % 10;
 			}
 			putchar(num + 48);
-			count++;
 		}
-		row++;
 		_putchar('\n');
 	}
 }
