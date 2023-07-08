@@ -23,6 +23,6 @@ int main(int argc, char *argv[])
 		}
 		sum += atoi(argv[argc]);
 	}
-        printf("%d\n", sum);
-        return (0);
+	printf("%d\n", sum);
+	return (0);
 }
