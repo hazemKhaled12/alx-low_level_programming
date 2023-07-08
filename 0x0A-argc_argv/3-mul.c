@@ -6,7 +6,7 @@
  * @argc: number of args
  * @argv: array of args
  *
- * Return: always 0 (success)
+ * Return: return 0 or 1 (success)
  */
 
 int main(int argc, char *argv[])
@@ -17,12 +17,11 @@ int main(int argc, char *argv[])
 	{
 		mul = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d/n", mul);
+		return (0);
 	}
 	else
 	{
 		printf("Error\n");
 		return (1);
 	}
-
-	return (0);
 }
